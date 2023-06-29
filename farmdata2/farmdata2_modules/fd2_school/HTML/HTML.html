@@ -5,15 +5,30 @@
 <p>
     Details
     <ul>
-        <li><b>Farm:</b>Sample Farm</li>
+        <li><b>Farm:</b><input type="text" value="Farm Name"></li>
         <li><b>User:</b>manager1</li>
         <li><b>Language:</b>English</li>
         <br>
         <li><b>Start:</b>05/01/2018</li>
         <li><b>End:</b>05/15/2018</li>
-        <li><b>Crop:</b>Kale</li>
+        <li>
+            <b>Crop:</b>
+            <ul>
+                <li>
+                  <label for="kale">Kale</label>
+                  <input type="checkbox" id="kale" name="vegetable" value="carrots" checked />
+                </li>
+                <li>
+                  <label for="peas">Peas</label>
+                  <input type="checkbox" id="peas" name="vegetable" value="peas" />
+                </li>
+                <li>
+                  <label for="broccoli">Broccoli</label>
+                  <input type="checkbox" id="broccoli" name="vegetable" value="broccoli" />
+                </li>
+              </ul>
+        </li>
     </ul>
-</p>
+</p>  
 
-<input type="text" value="Title"/>
-<button type="button">This is an anonymous button</button>
+<button type="button">This is an anonymous submit button</button>
